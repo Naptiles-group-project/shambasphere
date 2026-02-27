@@ -1,8 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: green;
     --light: #F0FBFC;
     --dark: #181d38;
+}
+
+.corousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .fw-medium {
@@ -47,6 +53,7 @@
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+    background-color: green;
 }
 
 .btn-square {
@@ -217,6 +224,12 @@
     position: relative;
     display: inline-block;
     text-transform: uppercase;
+    color: green;
+
+}
+
+.section-title h6{
+    color: green;
 }
 
 .section-title::before {
@@ -228,6 +241,7 @@
     left: -40px;
     background: var(--primary);
     z-index: -1;
+    color: var(--primary);
 }
 
 .section-title::after {
