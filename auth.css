@@ -1,6 +1,5 @@
 																																									:root {
-    --primary-color: #4EA685;
-   
+    --primary-color: #4EA685;   
      
     --black: #000000;
     --white: #ffffff;
@@ -394,4 +393,5 @@ body {
         margin: .5rem;
         font-size: 2rem;
     }
+    
 }
